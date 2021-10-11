@@ -7,6 +7,7 @@ using namespace std;
 int row1, row2, col1, col2;
 double** a, ** b, ** c;
 void inputMatrix(){
+    cout<<"Hello!!!\n This program multiplies and sums the entered matrices.\nStart work.\n";
     cout << "\nEnter the number of rows of the first matrix: ";
     cin >> row1;
     cout << "\nEnter the number of columns of the first matrix: ";
@@ -96,8 +97,8 @@ int sumMatrix() {
             c[i][j] = a[i][j] + b[i][j];
         }
     }
-    // Displaying the resultant sum matrix.
-    cout << endl << "Sum of two matrix is: " << endl;
+    // Вывод результата суммирования
+    cout << endl << "\nSum of two matrix is: " << endl;
         for (int i = 0; i < row1; ++i) {
         for (int j = 0; j < col1; ++j) {
             cout << c[i][j] << " ";
