@@ -86,3 +86,24 @@ int multMatrixSqBad(){
     cin.get(); cin.get();
     return 0;
 }
+int sumMatrix() {
+    if (col1 != col2 || row1 != row2) {
+        cout << "\nSum is impossible!";
+        return 0;
+    }
+    for (int i = 0; i < row1; ++i) {
+        for (int j = 0; j < col1; ++j) {
+            c[i][j] = a[i][j] + b[i][j];
+        }
+    }
+    // Displaying the resultant sum matrix.
+    cout << endl << "Sum of two matrix is: " << endl;
+        for (int i = 0; i < row1; ++i) {
+        for (int j = 0; j < col1; ++j) {
+            cout << c[i][j] << " ";
+            if (j == col1 - 1)
+                cout << endl;
+            }
+        }
+    return 0;
+}

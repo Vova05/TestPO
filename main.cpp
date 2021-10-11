@@ -7,5 +7,6 @@ using namespace std;
 int  main(){
     inputMatrix();
     multMatrixSqBad();
+    sumMatrix();
     return 0;
 }
