@@ -10,13 +10,13 @@ double** a, ** b, ** c;
 void inputMatrix(){
     cout<<"Hello!!!\n This program multiplies and sums the entered matrices.\nStart work.\n";
     cout << "\nEnter the number of rows of the first matrix: ";
-    //cin >> row1;
+    cin >> row1;
     cout << "\nEnter the number of columns of the first matrix: ";
-    //cin >> col1;
+    cin >> col1;
     cout << "\nEnter the number of rows of the second matrix: ";
-    //cin >> row2;
+    cin >> row2;
     cout << "\nEnter the number of columns of the second matrix: ";
-   // cin >> col2;
+    cin >> col2;
     // Ввод элементов первой матрицы
     a = new double* [row1];
     cout << "\nEnter the elements of the first matrix" << endl;
