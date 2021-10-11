@@ -1,0 +1,3 @@
+C:/Users/VovaGlh/WorkDir/MyPrograms/C++/TestPO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/VovaGlh/WorkDir/MyPrograms/C++/TestPO/cmake-build-debug/CMakeFiles/TestPO.dir
+C:/Users/VovaGlh/WorkDir/MyPrograms/C++/TestPO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

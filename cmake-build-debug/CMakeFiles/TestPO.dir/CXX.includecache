@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/VovaGlh/WorkDir/MyPrograms/C++/TestPO/main.cpp
+iostream
+-
+multMatrixBlock.cpp
+C:/Users/VovaGlh/WorkDir/MyPrograms/C++/TestPO/multMatrixBlock.cpp
+
+C:/Users/VovaGlh/WorkDir/MyPrograms/C++/TestPO/multMatrixBlock.cpp
+iostream
+C:/Users/VovaGlh/WorkDir/MyPrograms/C++/TestPO/iostream
+
