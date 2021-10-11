@@ -4,9 +4,9 @@
 #include "iostream"
 
 using namespace std;
-int multMatrixSqBad(){
-    int row1, row2, col1, col2;
-    double** a, ** b, ** c;
+int row1, row2, col1, col2;
+double** a, ** b, ** c;
+void inputMatrix(){
     cout << "\nEnter the number of rows of the first matrix: ";
     cin >> row1;
     cout << "\nEnter the number of columns of the first matrix: ";
@@ -15,6 +15,8 @@ int multMatrixSqBad(){
     cin >> row2;
     cout << "\nEnter the number of columns of the second matrix: ";
     cin >> col2;
+}
+int multMatrixSqBad(){
     if (col1 != row2)
     {
         cout << "\nMultiplication is impossible!";
